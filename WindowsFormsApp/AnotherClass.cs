@@ -12,6 +12,9 @@ namespace WindowsFormsApp
         public static void Main()
         {
             MessageBox.Show("Pow!");
+            Application.EnableVisualStyles();
+            Application.Run(new Form1());
+
         }
     }
 }
